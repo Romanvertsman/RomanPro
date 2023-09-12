@@ -255,12 +255,8 @@ Phone support and field support.</p>
     <!-- Skill End -->
 
     <!-- Contact Start -->
-		<form
-  action="https://formspree.io/f/xgejzekr"
-  method="POST"
->
-		
     <div class="container-fluid py-5" id="contact">
+	<form action="https://formspree.io/romanvertsman@gmail.com" method="POST">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
@@ -279,7 +275,7 @@ Phone support and field support.</p>
                                 </div>
                                 <div class="control-group col-sm-6">
                                     <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="required" />
+                                        required="required" data-validation-required-message="romanvertsman@gmail.com" />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
@@ -290,15 +286,13 @@ Phone support and field support.</p>
                             </div>
                             <div class="control-group">
                                 <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"/>
+                                    required="required"
                                     data-validation-required-message="Please enter your message"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
                                 <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
-                                  
-			Message</button>
-				    </form>
+                                    Message</button>
                             </div>
                         </form>
                     </div>
@@ -306,7 +300,6 @@ Phone support and field support.</p>
             </div>
         </div>
     </div>
-			
     <!-- Contact End -->
 
 
@@ -348,12 +341,23 @@ Phone support and field support.</p>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-  
-
- 
 </body>
+<!-- modify this form HTML and place wherever you want your form -->
 
-
-
+<form
+  action="https://formspree.io/f/xgejzekr" method="POST"
+>
+  <label>
+    romanvertsman@gmail.com:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
 </html>
+
